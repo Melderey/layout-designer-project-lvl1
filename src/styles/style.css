@@ -24,18 +24,19 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
   color: #2a2626;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 h1,
 h2,
 h3 {
+  font-weight: 400;
   font-family: "Neucha", sans-serif;
   line-height: 1.2em;
-  font-weight: 400;
+  text-align: left;
 }
 
 h1 {
@@ -50,9 +51,86 @@ h3 {
   font-size: 34px;
 }
 
-section {
-  width: 1110px;
-  text-align: center;
-  margin: 100px;
+.container {
+  position: relative;
 
+  max-width: 1110px;
+  margin: 100px auto;
+
+  text-align: center;
+}
+
+.bg-before::before {
+  position: absolute;
+  top: 0;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #b09a81;
+
+  background-image: url(../../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 10%;
+
+  content: "";
+
+  /* overflow: hidden; не понимаю куда нужно добавить это свойство, потмоу что если его добавить в контейнер, он режет картинку, а по макету так делать не надо */
+}
+
+.header-h1 {
+  position: absolute;
+  top: 55px;
+
+  color: #fe8a02;
+
+  text-align: left;
+}
+
+.header-h1-span {
+  color: #2a2626;
+}
+
+.main-img {
+  position: relative;
+  top: 55px;
+  right: -270px;
+
+  max-width: 100%;
+  height: 525px;
+  padding: 0;
+}
+
+.text-columns {
+  position: absolute;
+  top: 598px;
+
+  text-align: left;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.text-columns p {
+  margin-top: 0;
+}
+
+.second-column {
+  break-inside: avoid;
+}
+
+.botton-header {
+  position: absolute;
+  bottom: -40px;
+
+  padding: 12px 24px;
+
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+
+  background-color: #fe8a02;
 }
