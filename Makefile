@@ -7,3 +7,6 @@ lint:
 
 deploy:
 	npx surge ./src/
+
+fix:
+	npx stylelint ./src/styles/*.css --fix
