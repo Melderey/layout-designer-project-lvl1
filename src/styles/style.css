@@ -82,10 +82,12 @@ h3 {
   /* overflow: hidden; не понимаю куда нужно добавить это свойство, потмоу что если его добавить в контейнер, он режет картинку, а по макету так делать не надо */
 }
 
-.header-h1 {
+.header-text {
   position: absolute;
   top: 55px;
+}
 
+.header-h1 {
   color: #fe8a02;
 
   text-align: left;
@@ -96,7 +98,7 @@ h3 {
 }
 
 .main-img {
-  position: relative;
+  position: absolute;
   top: 55px;
   right: -270px;
 
@@ -106,8 +108,8 @@ h3 {
 }
 
 .text-columns {
-  position: absolute;
-  top: 598px;
+  position: relative;
+  top: 185px;
 
   text-align: left;
   column-count: 2;
@@ -123,8 +125,8 @@ h3 {
 }
 
 .botton-header {
-  position: absolute;
-  bottom: -40px;
+  position: relative;
+  top: 40px;
 
   padding: 12px 24px;
 
