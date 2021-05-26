@@ -59,7 +59,7 @@ h3 {
   position: relative;
 
   max-width: 1110px;
-  margin: 100px 165px;
+  padding: 100px 165px;
 
   text-align: center;
 }
@@ -136,6 +136,10 @@ h3 {
   background-color: #fe8a02;
 }
 
+.botton-header:hover {
+  background-color: #ea7600;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -160,4 +164,15 @@ header {
   margin-left: 96px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.section-video {
+  z-index: 1;
+
+  margin-bottom: -100px;
+  padding-bottom: 0;
+}
+
+#navigation {
+  background-color: #42413c;
 }
