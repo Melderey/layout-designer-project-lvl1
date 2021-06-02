@@ -101,7 +101,7 @@ h3 {
   display: block;
 
   width: 1605px;
-  height: 960px; /* нужно исправить, значения подобраны вручную */
+  height: 942.91px; /* нужно исправить, значения подобраны вручную */
   margin: 0;
   overflow: hidden;
 
@@ -305,12 +305,9 @@ header {
 }
 
 .line-h3 {
-
   margin-bottom: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
-
-  padding-left: 10px;
 
   color: #fff;
 
@@ -318,6 +315,8 @@ header {
 }
 
 .line-h3 h3 {
+  padding-left: 10px;
+
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
@@ -346,3 +345,39 @@ header {
   font-family: "Neucha", sans-serif;
   line-height: 1.2em;
 }
+
+#premature-optimization {
+  color: #fff;
+
+  background-color: #b09a81;
+}
+
+#premature-optimization p {
+  color: #fff;
+}
+
+#premature-optimization h3 {
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  padding-left: 10px;
+
+  color: #b09a81;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #fff;
+}
+
+#premature-optimization div:first-child {
+  margin-left: 0;
+}
+
+#premature-optimization div:last-child {
+  margin-left: -10px;
+}
+
+/* .line-h3 {
+  margin-left: -10px;
+} */
