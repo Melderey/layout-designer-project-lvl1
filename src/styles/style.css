@@ -241,15 +241,6 @@ header {
   background-color: #42413c;
 }
 
-#navigation div h1 {
-  color: #fff;
-  font-size: 52px;
-}
-
-#navigation button a h3 {
-  color: #fe8a02;
-}
-
 .h2-number {
   margin: 0;
   padding: 0;
@@ -260,26 +251,8 @@ header {
   line-height: 1em;
 }
 
-#navigation button a {
-  color: #2a2626;
-  text-align: left;
-  text-decoration: none;
-}
-
-#navigation button p {
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6em;
-}
-
 .button-navigation:hover {
   background-color: #fe8a02;
-}
-
-#navigation button:hover a h2,
-#navigation button:hover a h3,
-#navigation button:hover a p {
-  color: #fff;
 }
 
 .effect-columns {
@@ -325,10 +298,6 @@ header {
   margin-bottom: 30px;
 }
 
-.second-column {
-  margin-left: 30px;
-}
-
 .first-p {
   margin: 0;
 
@@ -357,7 +326,6 @@ header {
 }
 
 #premature-optimization h3 {
-
   padding-top: 5px;
   padding-bottom: 5px;
 
@@ -378,6 +346,29 @@ header {
   margin-left: -10px;
 }
 
-/* .line-h3 {
-  margin-left: -10px;
-} */
+#navigation div h1 {
+  color: #fff;
+  font-size: 52px;
+}
+
+#navigation button a h3 {
+  color: #fe8a02;
+}
+
+#navigation button a {
+  color: #2a2626;
+  text-align: left;
+  text-decoration: none;
+}
+
+#navigation button p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+#navigation button:hover a h2,
+#navigation button:hover a h3,
+#navigation button:hover a p {
+  color: #fff;
+}
