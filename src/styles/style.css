@@ -151,6 +151,8 @@ h3 {
 
 .second-column {
   break-inside: avoid;
+
+  margin-left: 30px;
 }
 
 .button-header {
