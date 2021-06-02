@@ -317,6 +317,21 @@ header {
   line-height: 1.2em;
 }
 
+.bg-premature-optimization {
+  position: absolute;
+  top: 0;
+  left: -165px;
+
+  z-index: 1;
+
+  display: block;
+  width: 1605px;
+  height: 942.91px; /* нужно исправить, значения подобраны вручную */
+
+  background-color: #b09a81;
+  opacity: 10%;
+}
+
 #premature-optimization {
   color: #fff;
 
@@ -373,4 +388,5 @@ header {
 #navigation button:hover a h3,
 #navigation button:hover a p {
   color: #fff;
+}
 }
