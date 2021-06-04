@@ -326,7 +326,7 @@ header {
 
   display: block;
   width: 1605px;
-  height: 942.91px; /* нужно исправить, значения подобраны вручную */
+  height: 901.9px; /* нужно исправить, значения подобраны вручную */
 
   background-color: #b09a81;
   opacity: 10%;
@@ -388,5 +388,4 @@ header {
 #navigation button:hover a h3,
 #navigation button:hover a p {
   color: #fff;
-}
 }
