@@ -116,6 +116,31 @@ h3 {
   content: "";
 }
 
+.bg-901 {
+  position: absolute;
+  top: 0;
+  left: -165px;
+
+  z-index: -1;
+
+  display: block;
+
+  width: 1605px;
+  height: 901.43px; /* нужно исправить, значения подобраны вручную */
+  margin: 0;
+  overflow: hidden;
+
+  background-color: #b09a81;
+
+  background-image: url(../../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 10%;
+
+  content: "";
+}
+
 .h1-span {
   color: #fe8a02;
 }
@@ -330,6 +355,37 @@ header {
 
   background-color: #b09a81;
   opacity: 10%;
+}
+
+#hyperbolic-depreciation {
+  color: #fff;
+
+  background-color: #b09a81;
+}
+
+#hyperbolic-depreciation p {
+  color: #fff;
+}
+
+#hyperbolic-depreciation h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  padding-left: 10px;
+
+  color: #b09a81;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #fff;
+}
+
+#hyperbolic-depreciation div:first-child {
+  margin-left: 0;
+}
+
+#hyperbolic-depreciation div:last-child {
+  margin-left: -10px;
 }
 
 #premature-optimization {
