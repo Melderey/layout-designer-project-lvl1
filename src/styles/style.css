@@ -107,7 +107,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 50%;
+  opacity: 90%;
 
   content: "";
 }
@@ -144,9 +144,10 @@ h3 {
 .main-img {
   position: absolute;
   top: 55px;
-  left: 421px;
+  left: 417px;
 
   height: 525px;
+  width: 1082.81px;
   padding: 0;
 }
 
@@ -168,14 +169,9 @@ h3 {
 
 .second-column {
   break-inside: avoid;
-
-  margin-left: 30px;
 }
 
 .button-header {
-  position: relative;
-  top: 40px;
-
   padding: 12px 24px;
 
   color: #fff;
@@ -183,6 +179,10 @@ h3 {
   text-decoration: none;
 
   background-color: #fe8a02;
+}
+
+.div-button-header {
+  margin-top: 40px;
 }
 
 .button-header:hover {
