@@ -2,25 +2,25 @@
 @font-face {
   font-weight: 400; /* Соответствует значению normal */
   font-family: "Open Sans";
-  src: url("../../fonts/OpenSans/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700; /* Соответствует значению bold */
   font-family: "Open Sans";
-  src: url("../../fonts/OpenSans/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 300; /* Соответствует значению light */
   font-family: "Open Sans";
-  src: url("../../fonts/OpenSans/OpenSans-Light.ttf");
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf");
 }
 
 @font-face {
   font-weight: 400; /* Соответствует значению normal */
   font-family: "Neucha";
-  src: url("../../fonts/Neucha/Neucha-Regular.ttf");
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
 body {
