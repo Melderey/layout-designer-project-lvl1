@@ -107,7 +107,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 10%;
+  opacity: 50%;
 
   content: "";
 }
@@ -144,22 +144,18 @@ h3 {
 .main-img {
   position: absolute;
   top: 55px;
-  left: 461px;
+  left: 421px;
 
-  max-width: 100%;
   height: 525px;
   padding: 0;
 }
 
 .text-columns {
-  position: relative;
-  bottom: -230px;
+  padding-top: 201px;
 
   text-align: left;
   column-count: 2;
   column-gap: 30px;
-
-  /* z-index: 1; не сработало, картинка накладывается на текст */
 }
 
 .text-columns p {
