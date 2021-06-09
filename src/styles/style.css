@@ -90,14 +90,14 @@ h3 {
 .bg {
   position: absolute;
   top: 0;
-  left: -165px;
+  left: 0;
 
   z-index: -1;
 
   display: block;
 
-  width: 1605px;
-  height: 942.91px; /* нужно исправить, значения подобраны вручную */
+  width: 100%;
+  height: 100%; /* нужно исправить, значения подобраны вручную */
   margin: 0;
   overflow: hidden;
 
@@ -107,7 +107,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* opacity: 10%; */
+  opacity: 10%;
 
   content: "";
 }
@@ -115,14 +115,14 @@ h3 {
 .bg-901 {
   position: absolute;
   top: 0;
-  left: -165px;
+  left: 0;
 
   z-index: -1;
 
   display: block;
 
-  width: 1605px;
-  height: 901.43px; /* нужно исправить, значения подобраны вручную */
+  width: 100%;
+  height: 100%; /* нужно исправить, значения подобраны вручную */
   margin: 0;
   overflow: hidden;
 
@@ -170,6 +170,10 @@ h3 {
 
 .second-column {
   break-inside: avoid;
+}
+
+.left-column {
+  padding-left: 30px;
 }
 
 .button-header {
@@ -336,13 +340,13 @@ header {
 .bg-premature-optimization {
   position: absolute;
   top: 0;
-  left: -165px;
+  left: 0;
 
   z-index: 1;
 
   display: block;
-  width: 1605px;
-  height: 901.9px; /* нужно исправить, значения подобраны вручную */
+  width: 100%;
+  height: 100%;
 
   background-color: #b09a81;
   opacity: 10%;
