@@ -285,7 +285,7 @@ header {
 
 .img-column {
   position: relative;
-  left: -37px;
+  left: -37.5px;
 }
 
 .effect-img {
@@ -295,6 +295,11 @@ header {
 
 .img {
   padding-bottom: 100px;
+}
+
+.img-right {
+  margin-top: -50px;
+  padding-top: 50px;
 }
 
 .effect-columns p {
@@ -313,10 +318,8 @@ header {
 }
 
 .line-h3-img-right {
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 
   color: #fff;
 
