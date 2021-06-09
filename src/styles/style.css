@@ -283,10 +283,6 @@ header {
   column-gap: 30px;
 }
 
-.column-width {
-  column-width: 502px;
-}
-
 .img-column {
   position: relative;
   left: -37px;
@@ -307,6 +303,17 @@ header {
 
 .line-h3 {
   /* margin-top: 100px; */
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  color: #fff;
+
+  background-color: #b09a81;
+}
+
+.line-h3-img-right {
+  margin-top: 100px;
   margin-bottom: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
