@@ -107,8 +107,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 90%;
-
+  /* opacity: 90%;
+ */
   content: "";
 }
 
@@ -144,10 +144,11 @@ h3 {
 .main-img {
   position: absolute;
   top: 55px;
-  left: 417px;
+  left: 461px;
+
+  width: 1082.81px;
 
   height: 525px;
-  width: 1082.81px;
   padding: 0;
 }
 
@@ -182,7 +183,7 @@ h3 {
 }
 
 .div-button-header {
-  margin-top: 40px;
+  margin-top: 51px;
 }
 
 .button-header:hover {
