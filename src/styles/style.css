@@ -203,7 +203,6 @@ header {
 .section-h1 {
   margin-bottom: 30px;
 
-
   text-align: center;
 }
 
@@ -213,8 +212,6 @@ header {
 }
 
 .video {
-  margin-left: 96px;
-
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
