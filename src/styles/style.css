@@ -298,8 +298,7 @@ header {
 }
 
 .img-right {
-  margin-top: -50px;
-  padding-top: 50px;
+  z-index: 3;
 }
 
 .effect-columns p {
@@ -326,10 +325,17 @@ header {
   background-color: #b09a81;
 }
 
+.line-h3-img-right h3 {
+  padding-left: 10px;
+
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
 .line-h3 h3 {
   padding-left: 10px;
 
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -522,7 +528,7 @@ header {
   padding-left: 10px;
 
   color: #b09a81;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 
   background-color: #fff;
