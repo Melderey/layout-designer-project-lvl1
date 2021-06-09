@@ -107,8 +107,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* opacity: 90%;
- */
+  /* opacity: 10%; */
+
   content: "";
 }
 
@@ -202,6 +202,7 @@ header {
 
 .section-h1 {
   margin-bottom: 30px;
+
 
   text-align: center;
 }
