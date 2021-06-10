@@ -520,6 +520,7 @@ header {
   margin-left: -10px;
 }
  */
+
 #premature-optimization {
   height: 654.41px;
 
@@ -547,6 +548,14 @@ header {
 
 #premature-optimization div:first-child {
   margin-left: 0;
+}
+
+#premature-optimization > h2 {
+  color: #fe8a02;
+}
+
+#premature-optimization > div > div > div > h2 {
+  color: #fff;
 }
 
 /* #premature-optimization div:last-child {
