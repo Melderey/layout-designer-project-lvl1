@@ -285,12 +285,12 @@ header {
 
 .img-column {
   position: relative;
-  left: -37.6px;
+  left: -37.7px;
 }
 
 .effect-img {
   /* width: 578px; */
-  z-index: 1;
+  z-index: 3;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -514,7 +514,7 @@ header {
 }
 
 #premature-optimization {
-  height: 644.41px;
+  height: 654.41px;
 
   color: #fff;
 
