@@ -283,6 +283,14 @@ header {
   column-gap: 30px;
 }
 
+.premature-effect-columns {
+  margin-bottom: -36px;
+
+  text-align: left;
+  column-count: 2;
+  column-gap: 30px;
+}
+
 .img-column {
   position: relative;
   left: -37.7px;
@@ -522,7 +530,8 @@ header {
  */
 
 #premature-optimization {
-  height: 654.41px;
+  /* min-height: 654.41px; */
+  height: auto;
 
   color: #fff;
 
