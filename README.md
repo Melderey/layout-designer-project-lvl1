@@ -1,4 +1,5 @@
 ### Hexlet tests and linter status:
+
 [![Actions Status](https://github.com/Melderey/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Melderey/layout-designer-project-lvl1/actions)
 
 # HTML/CSS Boilerplate
@@ -13,4 +14,16 @@ $ make install
 
 ```sh
 make lint
+```
+
+## Run fix css
+
+```sh
+make fix
+```
+
+## Run deploy
+
+```sh
+make deploy
 ```
