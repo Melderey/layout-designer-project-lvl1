@@ -288,6 +288,11 @@ header {
   left: -37.7px;
 }
 
+.img-column-2 {
+  position: relative;
+  left: -37.7px;
+}
+
 .effect-img {
   /* width: 578px; */
   z-index: 3;
@@ -501,7 +506,7 @@ header {
   padding-left: 10px;
 
   color: #b09a81;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 
   background-color: #fff;
@@ -511,10 +516,10 @@ header {
   margin-left: 0;
 }
 
-#hyperbolic-depreciation div:last-child {
+/* #hyperbolic-depreciation div:last-child {
   margin-left: -10px;
 }
-
+ */
 #premature-optimization {
   height: 654.41px;
 
